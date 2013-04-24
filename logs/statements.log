@@ -1,0 +1,157 @@
+M: 2012-03-20 13:21:00,495  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2012-03-20 13:21:00,505  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2012-03-20 13:21:00,509  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2012-03-20 13:21:00,510 ERROR main CalculationThread:getAndProcessStatement:239 - Statement error.
+M: 2012-03-20 13:21:00,545  INFO main CalculationThread:processStatement:134 - Statement is 2+2
+M: 2012-03-20 13:21:00,569  INFO main CalculationThread:processStatement:143 - Result is 4
+M: 2012-03-20 13:21:00,571  INFO main CalculationThread:processStatement:134 - Statement is foo
+M: 2012-03-20 13:21:00,572  INFO main CalculationThread:processStatement:149 - Statement error.
+M: 2012-03-21 15:37:32,383  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2012-03-21 15:37:32,419  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2012-03-21 15:37:32,428  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2012-03-21 15:37:32,431 ERROR main CalculationThread:getAndProcessStatement:239 - Statement error.
+M: 2012-03-21 15:37:32,449  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2012-03-21 15:37:32,455  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2012-03-21 15:37:32,456  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2012-03-21 15:37:32,458  INFO main CalculationThread:processStatement:150 - Statement error.
+M: 2012-03-21 16:09:24,549  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2012-03-21 16:09:24,571  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2012-03-21 16:09:24,574  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2012-03-21 16:09:24,577 ERROR main CalculationThread:getAndProcessStatement:239 - Statement error.
+M: 2012-03-21 16:09:24,605  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2012-03-21 16:09:24,618  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2012-03-21 16:09:24,620  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2012-03-21 16:09:24,625  INFO main CalculationThread:processStatement:150 - Statement error.
+M: 2012-03-21 16:15:21,430  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2012-03-21 16:15:21,451  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2012-03-21 16:15:21,454  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2012-03-21 16:15:21,457 ERROR main CalculationThread:getAndProcessStatement:239 - Statement error.
+M: 2012-03-21 16:15:21,478  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2012-03-21 16:15:21,488  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2012-03-21 16:15:21,490  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2012-03-21 16:15:21,501  INFO main CalculationThread:processStatement:150 - Statement error.
+M: 2012-03-21 16:36:17,032  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2012-03-21 16:36:17,052  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2012-03-21 16:36:17,055  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2012-03-21 16:36:17,057 ERROR main CalculationThread:getAndProcessStatement:239 - Statement error.
+M: 2012-03-21 16:36:17,104  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2012-03-21 16:36:17,118  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2012-03-21 16:36:17,123  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2012-03-21 16:36:17,125  INFO main CalculationThread:processStatement:150 - Statement error.
+M: 2012-03-21 16:48:21,952  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2012-03-21 16:48:21,976  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2012-03-21 16:48:21,988  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2012-03-21 16:48:21,993 ERROR main CalculationThread:getAndProcessStatement:239 - Statement error.
+M: 2012-03-21 16:48:22,044  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2012-03-21 16:48:22,057  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2012-03-21 16:48:22,059  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2012-03-21 16:48:22,063  INFO main CalculationThread:processStatement:150 - Statement error.
+M: 2012-03-21 17:43:29,602  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2012-03-21 17:43:29,614  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2012-03-21 17:43:29,618  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2012-03-21 17:43:29,620 ERROR main CalculationThread:getAndProcessStatement:239 - Statement error.
+M: 2012-03-21 17:43:29,643  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2012-03-21 17:43:29,648  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2012-03-21 17:43:29,649  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2012-03-21 17:43:29,651  INFO main CalculationThread:processStatement:150 - Statement error.
+M: 2012-03-22 09:32:09,713  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2012-03-22 09:32:09,736  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2012-03-22 09:32:09,742  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2012-03-22 09:32:09,744 ERROR main CalculationThread:getAndProcessStatement:239 - Statement error.
+M: 2012-03-22 09:32:09,798  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2012-03-22 09:32:09,821  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2012-03-22 09:32:09,822  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2012-03-22 09:32:09,825  INFO main CalculationThread:processStatement:150 - Statement error.
+M: 2012-03-22 09:40:29,531  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2012-03-22 09:40:29,557  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2012-03-22 09:40:29,562  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2012-03-22 09:40:29,564 ERROR main CalculationThread:getAndProcessStatement:239 - Statement error.
+M: 2012-03-22 09:40:29,576  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2012-03-22 09:40:29,579  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2012-03-22 09:40:29,581  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2012-03-22 09:40:29,595  INFO main CalculationThread:processStatement:150 - Statement error.
+M: 2012-03-22 09:43:23,348  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2012-03-22 09:43:23,381  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2012-03-22 09:43:23,385  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2012-03-22 09:43:23,387 ERROR main CalculationThread:getAndProcessStatement:239 - Statement error.
+M: 2012-03-22 09:43:23,417  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2012-03-22 09:43:23,422  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2012-03-22 09:43:23,433  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2012-03-22 09:43:23,437  INFO main CalculationThread:processStatement:150 - Statement error.
+M: 2012-03-22 09:45:24,198  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2012-03-22 09:45:24,227  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2012-03-22 09:45:24,236  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2012-03-22 09:45:24,239 ERROR main CalculationThread:getAndProcessStatement:239 - Statement error.
+M: 2012-03-22 09:45:24,261  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2012-03-22 09:45:24,273  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2012-03-22 09:45:24,274  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2012-03-22 09:45:24,294  INFO main CalculationThread:processStatement:150 - Statement error.
+M: 2012-03-22 09:48:04,454  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2012-03-22 09:48:04,465  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2012-03-22 09:48:04,474  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2012-03-22 09:48:04,475 ERROR main CalculationThread:getAndProcessStatement:239 - Statement error.
+M: 2012-03-22 09:48:04,511  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2012-03-22 09:48:04,520  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2012-03-22 09:48:04,522  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2012-03-22 09:48:04,523  INFO main CalculationThread:processStatement:150 - Statement error.
+M: 2012-03-22 09:49:01,175  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2012-03-22 09:49:01,188  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2012-03-22 09:49:01,196  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2012-03-22 09:49:01,199 ERROR main CalculationThread:getAndProcessStatement:239 - Statement error.
+M: 2012-03-22 09:49:01,246  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2012-03-22 09:49:01,260  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2012-03-22 09:49:01,261  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2012-03-22 09:49:01,263  INFO main CalculationThread:processStatement:150 - Statement error.
+M: 2013-04-20 17:20:29,554  INFO pool-1-thread-1 CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2013-04-20 17:20:29,565 ERROR pool-1-thread-1 CalculationThread:getAndProcessStatement:259 - Exception.
+java.lang.NullPointerException
+	at com.sysgears.calculatorserver.kernell.cache.SaveLoadCache.writeFile(SaveLoadCache.java:50)
+	at com.sysgears.calculatorserver.kernell.cache.Cache.saveCache(Cache.java:148)
+	at com.sysgears.calculatorserver.kernell.cache.Cache.addToCache(Cache.java:100)
+	at com.sysgears.calculatorserver.kernell.calculation.AnswerSearcher.getAnswer(AnswerSearcher.java:52)
+	at com.sysgears.calculatorserver.kernell.calculation.Calculator.calculate(Calculator.java:71)
+	at com.sysgears.calculatorserver.kernell.calculation.AnswerSearcher.getAnswer(AnswerSearcher.java:50)
+	at com.sysgears.calculatorserver.server.CalculationThread.getAndProcessStatement(CalculationThread.java:224)
+	at com.sysgears.calculatorserver.server.CalculationThread.run(CalculationThread.java:123)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+M: 2013-04-20 17:25:33,678  INFO pool-1-thread-1 CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2013-04-20 17:25:33,691 ERROR pool-1-thread-1 CalculationThread:getAndProcessStatement:259 - Exception.
+java.lang.NullPointerException
+	at com.sysgears.calculatorserver.kernell.cache.SaveLoadCache.writeFile(SaveLoadCache.java:50)
+	at com.sysgears.calculatorserver.kernell.cache.Cache.saveCache(Cache.java:148)
+	at com.sysgears.calculatorserver.kernell.cache.Cache.addToCache(Cache.java:100)
+	at com.sysgears.calculatorserver.kernell.calculation.AnswerSearcher.getAnswer(AnswerSearcher.java:52)
+	at com.sysgears.calculatorserver.kernell.calculation.Calculator.calculate(Calculator.java:71)
+	at com.sysgears.calculatorserver.kernell.calculation.AnswerSearcher.getAnswer(AnswerSearcher.java:50)
+	at com.sysgears.calculatorserver.server.CalculationThread.getAndProcessStatement(CalculationThread.java:224)
+	at com.sysgears.calculatorserver.server.CalculationThread.run(CalculationThread.java:123)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+M: 2013-04-20 17:26:51,954  INFO pool-1-thread-1 CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2013-04-20 17:26:51,967 ERROR pool-1-thread-1 CalculationThread:getAndProcessStatement:259 - Exception.
+java.lang.NullPointerException
+	at com.sysgears.calculatorserver.kernell.cache.SaveLoadCache.writeFile(SaveLoadCache.java:50)
+	at com.sysgears.calculatorserver.kernell.cache.Cache.saveCache(Cache.java:148)
+	at com.sysgears.calculatorserver.kernell.cache.Cache.addToCache(Cache.java:100)
+	at com.sysgears.calculatorserver.kernell.calculation.AnswerSearcher.getAnswer(AnswerSearcher.java:52)
+	at com.sysgears.calculatorserver.kernell.calculation.Calculator.calculate(Calculator.java:71)
+	at com.sysgears.calculatorserver.kernell.calculation.AnswerSearcher.getAnswer(AnswerSearcher.java:50)
+	at com.sysgears.calculatorserver.server.CalculationThread.getAndProcessStatement(CalculationThread.java:224)
+	at com.sysgears.calculatorserver.server.CalculationThread.run(CalculationThread.java:123)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+M: 2013-04-20 17:28:53,823  INFO pool-1-thread-1 CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2013-04-20 17:28:53,838  INFO pool-1-thread-1 CalculationThread:getAndProcessStatement:229 - Result is 4

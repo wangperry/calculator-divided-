@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="2" time="0.165" errors="0" skipped="6" tests="41" name="TestSuite">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="23.21-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/rezokuken/Cloud/myProjects/calculator(divided)"/>
+    <property name="java.runtime.version" value="1.7.0_21-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.5.0-27-generic"/>
+    <property name="user.home" value="/home/rezokuken"/>
+    <property name="user.timezone" value="Europe/Zaporozhye"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="user.name" value="rezokuken"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-7-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_21"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-7-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-7-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-7-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.007" classname="com.sysgears.calculatorserver.kernell.UTestOperations" name="testAdd"/>
+  <testcase time="0" classname="com.sysgears.calculatorserver.kernell.UTestOperations" name="testDivide"/>
+  <testcase time="0" classname="com.sysgears.calculatorserver.kernell.UTestOperations" name="testDivideZeroException"/>
+  <testcase time="0" classname="com.sysgears.calculatorserver.kernell.UTestOperations" name="testMultiply"/>
+  <testcase time="0.001" classname="com.sysgears.calculatorserver.kernell.cache.UTestCache" name="testAddToCacheAdd"/>
+  <testcase time="0.002" classname="com.sysgears.calculatorserver.kernell.cache.UTestCache" name="testAddToCacheOverflow"/>
+  <testcase time="0" classname="com.sysgears.calculatorserver.kernell.cache.UTestCache" name="testClearCache"/>
+  <testcase time="0.004" classname="com.sysgears.calculatorserver.kernell.cache.UTestCache" name="testLoadCache">
+    <failure message="expected:&lt;3.0&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;3.0&gt; but was:&lt;null&gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:160)
+	at com.sysgears.calculatorserver.kernell.cache.UTestCache.testLoadCache(UTestCache.java:86)
+</failure>
+    <system-out>Cache file not found.
+Cache file not found.
+</system-out>
+  </testcase>
+  <testcase time="0" classname="com.sysgears.calculatorserver.kernell.cache.UTestCache" name="testSaveCache"/>
+  <testcase time="0" classname="com.sysgears.calculatorserver.kernell.cache.UTestCache" name="testSearchInCache"/>
+  <testcase time="0.002" classname="com.sysgears.calculatorserver.kernell.cache.UTestSaveLoadCache" name="createTestFile">
+    <failure message="No such file or directory" type="java.io.IOException">java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:947)
+	at com.sysgears.calculatorserver.kernell.cache.UTestSaveLoadCache.createTestFile(UTestSaveLoadCache.java:26)
+</failure>
+  </testcase>
+  <testcase time="0.002" classname="com.sysgears.calculatorserver.kernell.cache.UTestSaveLoadCache" name="beforeMethod">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.sysgears.calculatorserver.kernell.cache.UTestSaveLoadCache" name="testLoadFile">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.sysgears.calculatorserver.kernell.cache.UTestSaveLoadCache" name="afterMethod">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.sysgears.calculatorserver.kernell.cache.UTestSaveLoadCache" name="beforeMethod">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.sysgears.calculatorserver.kernell.cache.UTestSaveLoadCache" name="testWriteFile">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.sysgears.calculatorserver.kernell.cache.UTestSaveLoadCache" name="afterMethod">
+    <skipped/>
+  </testcase>
+  <testcase time="0.106" classname="com.sysgears.calculatorserver.kernell.calculation.UTestAnswerSearcher" name="testGetAnswer"/>
+  <testcase time="0.002" classname="com.sysgears.calculatorserver.kernell.calculation.UTestAnswerSearcher" name="testGetAnswer"/>
+  <testcase time="0.006" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator" name="bracketsCalculateTest"/>
+  <testcase time="0.004" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator" name="calculateStatementErrorExceptionTest"/>
+  <testcase time="0.002" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator" name="calculateTest"/>
+  <testcase time="0" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator" name="findClothingBracketTest"/>
+  <testcase time="0" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator" name="findClothingBracketTestIllegalArgument"/>
+  <testcase time="0.001" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator" name="subCalculateTest"/>
+  <testcase time="0.001" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator" name="subCalculateTest"/>
+  <testcase time="0.001" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator" name="subCalculateTest"/>
+  <testcase time="0.001" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator" name="validateRegExpTest"/>
+  <testcase time="0" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator" name="validateRegExpTest"/>
+  <testcase time="0.001" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator" name="validateRegExpTest"/>
+  <testcase time="0.01" classname="com.sysgears.calculatorserver.server.UTestCalculationThread" name="testGetAndProcessStatement"/>
+  <testcase time="0.001" classname="com.sysgears.calculatorserver.server.UTestCalculationThread" name="testGetAndProcessStatement"/>
+  <testcase time="0.001" classname="com.sysgears.calculatorserver.server.UTestCalculationThread" name="testNormalizeStatement"/>
+  <testcase time="0" classname="com.sysgears.calculatorserver.server.UTestCalculationThread" name="testNormalizeStatement"/>
+  <testcase time="0.001" classname="com.sysgears.calculatorserver.server.UTestCalculationThread" name="testNormalizeStatement"/>
+  <testcase time="0" classname="com.sysgears.calculatorserver.server.UTestCalculationThread" name="testNormalizeStatement"/>
+  <testcase time="0.001" classname="com.sysgears.calculatorserver.server.UTestCalculationThread" name="testNormalizeStatement"/>
+  <testcase time="0" classname="com.sysgears.calculatorserver.server.UTestCalculationThread" name="testNormalizeStatement"/>
+  <testcase time="0.003" classname="com.sysgears.calculatorserver.server.UTestCalculationThread" name="testProcessStatement"/>
+  <testcase time="0.001" classname="com.sysgears.calculatorserver.server.UTestCalculationThread" name="testProcessStatement"/>
+  <testcase time="0" classname="com.sysgears.calculatorserver.server.UTestCalculationThreadFactory" name="testCreateThread"/>
+</testsuite>

@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 41, Failures: 2, Errors: 0, Skipped: 6, Time elapsed: 0.68 sec <<< FAILURE!
+testLoadCache(com.sysgears.calculatorserver.kernell.cache.UTestCache)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<3.0> but was:<null>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:160)
+	at com.sysgears.calculatorserver.kernell.cache.UTestCache.testLoadCache(UTestCache.java:86)
+createTestFile(com.sysgears.calculatorserver.kernell.cache.UTestSaveLoadCache)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:947)
+	at com.sysgears.calculatorserver.kernell.cache.UTestSaveLoadCache.createTestFile(UTestSaveLoadCache.java:26)

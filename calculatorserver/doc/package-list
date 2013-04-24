@@ -1,0 +1,6 @@
+com.sysgears.calculatorserver.exceptions
+com.sysgears.calculatorserver.kernell
+com.sysgears.calculatorserver.server
+com.sysgears.calculatorserver.service
+com.sysgears.calculatorserver.statement
+com.sysgears.calculatorserver.userInterface

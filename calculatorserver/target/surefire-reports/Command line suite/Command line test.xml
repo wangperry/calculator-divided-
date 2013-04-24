@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="rezokuken-Insp" name="com.sysgears.calculatorserver.kernell.UTestOperations" tests="36" failures="1" timestamp="19 Apr 2013 18:53:51 GMT" time="0.251" errors="0">
+  <testcase name="@BeforeClass createTestFile" time="0.0" classname="com.sysgears.calculatorserver.kernell.cache.UTestSaveLoadCache">
+    <failure type="java.io.IOException" message="No such file or directory">
+      <![CDATA[java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:947)
+	at com.sysgears.calculatorserver.kernell.cache.UTestSaveLoadCache.createTestFile(UTestSaveLoadCache.java:26)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:76)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:161)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:101)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:115)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@BeforeMethod beforeMethod" time="0.0" classname="com.sysgears.calculatorserver.kernell.cache.UTestSaveLoadCache">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod afterMethod" time="0.0" classname="com.sysgears.calculatorserver.kernell.cache.UTestSaveLoadCache">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod beforeMethod" time="0.0" classname="com.sysgears.calculatorserver.kernell.cache.UTestSaveLoadCache">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod afterMethod" time="0.0" classname="com.sysgears.calculatorserver.kernell.cache.UTestSaveLoadCache">
+    <skipped/>
+  </testcase>
+  <testcase name="testAdd" time="0.009" classname="com.sysgears.calculatorserver.kernell.UTestOperations"/>
+  <testcase name="testDivide" time="0.0" classname="com.sysgears.calculatorserver.kernell.UTestOperations"/>
+  <testcase name="testDivideZeroException" time="0.0" classname="com.sysgears.calculatorserver.kernell.UTestOperations"/>
+  <testcase name="testMultiply" time="0.0" classname="com.sysgears.calculatorserver.kernell.UTestOperations"/>
+  <testcase name="testAddToCacheAdd" time="0.001" classname="com.sysgears.calculatorserver.kernell.cache.UTestCache"/>
+  <testcase name="testAddToCacheOverflow" time="0.001" classname="com.sysgears.calculatorserver.kernell.cache.UTestCache"/>
+  <testcase name="testClearCache" time="0.001" classname="com.sysgears.calculatorserver.kernell.cache.UTestCache"/>
+  <testcase name="testLoadCache" time="0.001" classname="com.sysgears.calculatorserver.kernell.cache.UTestCache">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;3.0&amp;gt; but was:&amp;lt;null&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<3.0> but was:<null>
+	at com.sysgears.calculatorserver.kernell.cache.UTestCache.testLoadCache(UTestCache.java:86)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:76)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:161)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:101)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:115)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testSaveCache" time="0.001" classname="com.sysgears.calculatorserver.kernell.cache.UTestCache"/>
+  <testcase name="testSearchInCache" time="0.0" classname="com.sysgears.calculatorserver.kernell.cache.UTestCache"/>
+  <testcase name="testLoadFile" time="0.0" classname="com.sysgears.calculatorserver.kernell.cache.UTestSaveLoadCache">
+    <skipped/>
+  </testcase>
+  <testcase name="testWriteFile" time="0.0" classname="com.sysgears.calculatorserver.kernell.cache.UTestSaveLoadCache">
+    <skipped/>
+  </testcase>
+  <testcase name="testGetAnswer" time="0.107" classname="com.sysgears.calculatorserver.kernell.calculation.UTestAnswerSearcher"/>
+  <testcase name="testGetAnswer" time="0.001" classname="com.sysgears.calculatorserver.kernell.calculation.UTestAnswerSearcher"/>
+  <testcase name="bracketsCalculateTest" time="0.006" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator"/>
+  <testcase name="calculateStatementErrorExceptionTest" time="0.005" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator"/>
+  <testcase name="calculateTest" time="0.002" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator"/>
+  <testcase name="findClothingBracketTest" time="0.0" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator"/>
+  <testcase name="findClothingBracketTestIllegalArgument" time="0.0" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator"/>
+  <testcase name="subCalculateTest" time="0.001" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator"/>
+  <testcase name="subCalculateTest" time="0.001" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator"/>
+  <testcase name="subCalculateTest" time="0.001" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator"/>
+  <testcase name="validateRegExpTest" time="0.001" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator"/>
+  <testcase name="validateRegExpTest" time="0.0" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator"/>
+  <testcase name="validateRegExpTest" time="0.001" classname="com.sysgears.calculatorserver.kernell.calculation.UTestCalculator"/>
+  <testcase name="testGetAndProcessStatement" time="0.01" classname="com.sysgears.calculatorserver.server.UTestCalculationThread"/>
+  <testcase name="testGetAndProcessStatement" time="0.001" classname="com.sysgears.calculatorserver.server.UTestCalculationThread"/>
+  <testcase name="testNormalizeStatement" time="0.0" classname="com.sysgears.calculatorserver.server.UTestCalculationThread"/>
+  <testcase name="testNormalizeStatement" time="0.0" classname="com.sysgears.calculatorserver.server.UTestCalculationThread"/>
+  <testcase name="testNormalizeStatement" time="0.001" classname="com.sysgears.calculatorserver.server.UTestCalculationThread"/>
+  <testcase name="testNormalizeStatement" time="0.0" classname="com.sysgears.calculatorserver.server.UTestCalculationThread"/>
+  <testcase name="testNormalizeStatement" time="0.001" classname="com.sysgears.calculatorserver.server.UTestCalculationThread"/>
+  <testcase name="testNormalizeStatement" time="0.0" classname="com.sysgears.calculatorserver.server.UTestCalculationThread"/>
+  <testcase name="testProcessStatement" time="0.003" classname="com.sysgears.calculatorserver.server.UTestCalculationThread"/>
+  <testcase name="testProcessStatement" time="0.001" classname="com.sysgears.calculatorserver.server.UTestCalculationThread"/>
+  <testcase name="testCreateThread" time="0.0" classname="com.sysgears.calculatorserver.server.UTestCalculationThreadFactory"/>
+</testsuite>

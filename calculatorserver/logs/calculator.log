@@ -1,0 +1,861 @@
+M: 2012-03-21 18:28:35,767 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-21 18:28:35,771 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-21 18:28:35,773  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-21 18:28:35,784  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-21 18:28:35,788 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-21 18:28:35,788 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-21 18:28:35,789  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-21 18:28:35,795  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-21 18:28:35,795  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-21 18:28:35,796 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-21 18:28:35,796  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-21 18:28:35,797 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-21 18:28:35,797  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-21 18:28:35,797 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-21 18:28:35,797  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-21 18:28:35,799 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-21 18:28:35,801 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-21 18:28:35,801  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-21 18:28:35,802  INFO main Cache:clearCache:108 - Clearing cache.
+M: 2012-03-21 18:28:35,802  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-21 18:28:35,804 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-21 18:28:35,804 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-21 18:28:35,805  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-21 18:28:35,806  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-21 18:28:35,815 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-21 18:28:35,816 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-21 18:28:35,816  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-21 18:28:35,817  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-21 18:28:35,818 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-21 18:28:35,818 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-21 18:28:35,819  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-21 18:28:35,831 DEBUG main SaveLoadCache:loadFile:69 - Initializing input stream from cache file /home/eugene/test0.cache
+M: 2012-03-21 18:28:35,834 DEBUG main SaveLoadCache:loadFile:73 - Cache is loaded from file successfully.
+M: 2012-03-21 18:28:35,834 DEBUG main SaveLoadCache:loadFile:78 - Clothing input stream.
+M: 2012-03-21 18:28:35,834 DEBUG main SaveLoadCache:loadFile:80 - Input stream closed successfully.
+M: 2012-03-21 18:28:35,837 DEBUG main SaveLoadCache:writeFile:38 - Initializing output stream with file.
+M: 2012-03-21 18:28:35,838 DEBUG main SaveLoadCache:writeFile:42 - Cache saved to file /home/eugene/test0.cache. File size: 241b.
+M: 2012-03-21 18:28:35,838 DEBUG main SaveLoadCache:writeFile:49 - Clothing output stream.
+M: 2012-03-21 18:28:35,839 DEBUG main SaveLoadCache:writeFile:51 - Output stream clothed successfully.
+M: 2012-03-21 18:28:36,032 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for cache
+M: 2012-03-21 18:28:36,033 DEBUG main AnswerSearcher:getAnswer:55 - Result is found in cache.
+M: 2012-03-21 18:28:36,033 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 50.0.
+M: 2012-03-21 18:28:36,043 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-21 18:28:36,043 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-21 18:28:36,043 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 25.0.
+M: 2012-03-21 18:28:36,063 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-21 18:28:36,093 DEBUG main Calculator:calculate:44 - Calculating 2+4
+M: 2012-03-21 18:28:36,095 DEBUG main Calculator:calculate:76 - Calculating of 2+4. Result is: 6.0
+M: 2012-03-21 18:28:36,120  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2012-03-21 18:28:36,121 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2012-03-21 18:28:36,121 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-21 18:28:36,122 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2012-03-21 18:28:36,122 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2012-03-21 18:28:36,123 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-21 18:28:36,123 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2012-03-21 18:28:36,124 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2012-03-21 18:28:36,124 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2012-03-21 18:28:36,125 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2012-03-21 18:28:36,131  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2012-03-21 18:28:36,136  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2012-03-21 18:28:36,137 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-21 18:28:36,138 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-21 18:28:36,138 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-21 18:28:36,142 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-21 18:28:36,144 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-21 18:28:36,145 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-21 18:28:36,147 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-21 18:28:36,148 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-21 18:28:36,149 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-21 18:28:36,153  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2012-03-21 18:28:36,153 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2012-03-21 18:28:36,154 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-21 18:28:36,154 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2012-03-21 18:28:36,155 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2012-03-21 18:28:36,156 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-21 18:28:36,156 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2012-03-21 18:28:36,157 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2012-03-21 18:28:36,157 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2012-03-21 18:28:36,158 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2012-03-21 18:28:36,158  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2012-03-21 18:28:36,160  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2012-03-21 18:28:36,161 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-21 18:28:36,161 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-21 18:28:36,161 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:08:47,900 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:08:47,904 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:08:47,906  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:08:47,907  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-22 09:08:47,910 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:08:47,910 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:08:47,911  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:08:47,912  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-22 09:08:47,912  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-22 09:08:47,913 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-22 09:08:47,913  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-22 09:08:47,914 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-22 09:08:47,914  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-22 09:08:47,915 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-22 09:08:47,915  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-22 09:08:47,917 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:08:47,920 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:08:47,921  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:08:47,922  INFO main Cache:clearCache:108 - Clearing cache.
+M: 2012-03-22 09:08:47,922  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-22 09:08:47,924 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:08:47,924 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:08:47,925  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:08:47,927  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:08:47,938 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:08:47,938 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:08:47,939  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:08:47,940  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-22 09:08:47,942 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:08:47,943 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:08:47,945  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:08:47,962 DEBUG main SaveLoadCache:loadFile:69 - Initializing input stream from cache file /home/eugene/test0.cache
+M: 2012-03-22 09:08:47,965 DEBUG main SaveLoadCache:loadFile:73 - Cache is loaded from file successfully.
+M: 2012-03-22 09:08:47,966 DEBUG main SaveLoadCache:loadFile:78 - Clothing input stream.
+M: 2012-03-22 09:08:47,966 DEBUG main SaveLoadCache:loadFile:80 - Input stream closed successfully.
+M: 2012-03-22 09:08:47,970 DEBUG main SaveLoadCache:writeFile:38 - Initializing output stream with file.
+M: 2012-03-22 09:08:47,971 DEBUG main SaveLoadCache:writeFile:42 - Cache saved to file /home/eugene/test0.cache. File size: 241b.
+M: 2012-03-22 09:08:47,971 DEBUG main SaveLoadCache:writeFile:49 - Clothing output stream.
+M: 2012-03-22 09:08:47,971 DEBUG main SaveLoadCache:writeFile:51 - Output stream clothed successfully.
+M: 2012-03-22 09:08:48,165 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for cache
+M: 2012-03-22 09:08:48,165 DEBUG main AnswerSearcher:getAnswer:55 - Result is found in cache.
+M: 2012-03-22 09:08:48,166 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 50.0.
+M: 2012-03-22 09:08:48,168 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-22 09:08:48,168 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:08:48,168 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 25.0.
+M: 2012-03-22 09:08:48,180 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:08:48,189 DEBUG main Calculator:calculate:44 - Calculating 2+4
+M: 2012-03-22 09:08:48,190 DEBUG main Calculator:calculate:76 - Calculating of 2+4. Result is: 6.0
+M: 2012-03-22 09:08:48,214  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2012-03-22 09:08:48,214 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2012-03-22 09:08:48,215 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:08:48,215 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2012-03-22 09:08:48,216 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2012-03-22 09:08:48,216 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:08:48,217 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2012-03-22 09:08:48,217 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2012-03-22 09:08:48,218 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2012-03-22 09:08:48,218 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2012-03-22 09:08:48,224  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2012-03-22 09:08:48,229  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2012-03-22 09:08:48,229 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-22 09:08:48,230 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:08:48,230 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:08:48,234 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-22 09:08:48,236 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-22 09:08:48,238 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-22 09:08:48,239 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-22 09:08:48,241 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-22 09:08:48,241 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-22 09:08:48,245  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2012-03-22 09:08:48,246 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2012-03-22 09:08:48,246 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:08:48,247 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2012-03-22 09:08:48,247 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2012-03-22 09:08:48,248 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:08:48,248 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2012-03-22 09:08:48,249 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2012-03-22 09:08:48,249 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2012-03-22 09:08:48,250 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2012-03-22 09:08:48,250  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2012-03-22 09:08:48,252  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2012-03-22 09:08:48,253 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-22 09:08:48,253 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:08:48,254 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:16:31,196 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:16:31,200 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:16:31,202  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:16:31,203  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-22 09:16:31,205 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:16:31,206 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:16:31,206  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:16:31,207  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-22 09:16:31,208  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-22 09:16:31,208 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-22 09:16:31,208  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-22 09:16:31,209 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-22 09:16:31,209  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-22 09:16:31,209 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-22 09:16:31,210  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-22 09:16:31,212 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:16:31,216 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:16:31,217  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:16:31,218  INFO main Cache:clearCache:108 - Clearing cache.
+M: 2012-03-22 09:16:31,218  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-22 09:16:31,220 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:16:31,220 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:16:31,221  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:16:31,223  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:16:31,231 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:16:31,232 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:16:31,233  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:16:31,234  INFO main Cache:saveCache:146 - Saving cache to file calculatorserver/resources/test_file
+M: 2012-03-22 09:16:31,236 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:16:31,236 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:16:31,237  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:16:31,425 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for cache
+M: 2012-03-22 09:16:31,425 DEBUG main AnswerSearcher:getAnswer:55 - Result is found in cache.
+M: 2012-03-22 09:16:31,425 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 50.0.
+M: 2012-03-22 09:16:31,427 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-22 09:16:31,427 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:16:31,428 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 25.0.
+M: 2012-03-22 09:16:31,438 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:16:31,451 DEBUG main Calculator:calculate:44 - Calculating 2+4
+M: 2012-03-22 09:16:31,452 DEBUG main Calculator:calculate:76 - Calculating of 2+4. Result is: 6.0
+M: 2012-03-22 09:16:31,471  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2012-03-22 09:16:31,471 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2012-03-22 09:16:31,472 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:16:31,472 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2012-03-22 09:16:31,473 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2012-03-22 09:16:31,473 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:16:31,473 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2012-03-22 09:16:31,474 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2012-03-22 09:16:31,474 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2012-03-22 09:16:31,474 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2012-03-22 09:16:31,480  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2012-03-22 09:16:31,484  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2012-03-22 09:16:31,484 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-22 09:16:31,484 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:16:31,484 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:16:31,490 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-22 09:16:31,492 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-22 09:16:31,493 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-22 09:16:31,494 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-22 09:16:31,495 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-22 09:16:31,496 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-22 09:16:31,499  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2012-03-22 09:16:31,499 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2012-03-22 09:16:31,499 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:16:31,499 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2012-03-22 09:16:31,500 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2012-03-22 09:16:31,500 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:16:31,501 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2012-03-22 09:16:31,501 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2012-03-22 09:16:31,501 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2012-03-22 09:16:31,502 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2012-03-22 09:16:31,502  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2012-03-22 09:16:31,503  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2012-03-22 09:16:31,504 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-22 09:16:31,504 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:16:31,504 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:17:07,245 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:17:07,249 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:17:07,250  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:17:07,251  INFO main Cache:saveCache:146 - Saving cache to file ~/test_file
+M: 2012-03-22 09:17:07,254 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:17:07,254 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:17:07,255  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:17:07,257  INFO main Cache:saveCache:146 - Saving cache to file ~/test_file
+M: 2012-03-22 09:17:07,257  INFO main Cache:saveCache:146 - Saving cache to file ~/test_file
+M: 2012-03-22 09:17:07,258  INFO main Cache:saveCache:146 - Saving cache to file ~/test_file
+M: 2012-03-22 09:17:07,258 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-22 09:17:07,258  INFO main Cache:saveCache:146 - Saving cache to file ~/test_file
+M: 2012-03-22 09:17:07,259 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-22 09:17:07,259  INFO main Cache:saveCache:146 - Saving cache to file ~/test_file
+M: 2012-03-22 09:17:07,261 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:17:07,262 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:17:07,268  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:17:07,269  INFO main Cache:clearCache:108 - Clearing cache.
+M: 2012-03-22 09:17:07,270  INFO main Cache:saveCache:146 - Saving cache to file ~/test_file
+M: 2012-03-22 09:17:07,271 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:17:07,272 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:17:07,272  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:17:07,274  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:17:07,290 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:17:07,291 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:17:07,291  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:17:07,292  INFO main Cache:saveCache:146 - Saving cache to file ~/test_file
+M: 2012-03-22 09:17:07,295 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:17:07,295 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:17:07,296  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:17:07,486 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for cache
+M: 2012-03-22 09:17:07,487 DEBUG main AnswerSearcher:getAnswer:55 - Result is found in cache.
+M: 2012-03-22 09:17:07,487 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 50.0.
+M: 2012-03-22 09:17:07,489 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-22 09:17:07,489 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:17:07,490 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 25.0.
+M: 2012-03-22 09:17:07,500 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:17:07,512 DEBUG main Calculator:calculate:44 - Calculating 2+4
+M: 2012-03-22 09:17:07,513 DEBUG main Calculator:calculate:76 - Calculating of 2+4. Result is: 6.0
+M: 2012-03-22 09:17:07,533  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2012-03-22 09:17:07,533 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2012-03-22 09:17:07,533 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:17:07,534 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2012-03-22 09:17:07,534 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2012-03-22 09:17:07,535 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:17:07,535 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2012-03-22 09:17:07,536 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2012-03-22 09:17:07,536 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2012-03-22 09:17:07,536 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2012-03-22 09:17:07,543  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2012-03-22 09:17:07,548  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2012-03-22 09:17:07,548 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-22 09:17:07,548 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:17:07,548 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:17:07,551 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-22 09:17:07,553 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-22 09:17:07,554 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-22 09:17:07,555 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-22 09:17:07,557 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-22 09:17:07,557 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-22 09:17:07,559  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2012-03-22 09:17:07,560 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2012-03-22 09:17:07,560 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:17:07,561 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2012-03-22 09:17:07,562 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2012-03-22 09:17:07,562 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:17:07,563 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2012-03-22 09:17:07,563 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2012-03-22 09:17:07,564 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2012-03-22 09:17:07,564 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2012-03-22 09:17:07,565  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2012-03-22 09:17:07,566  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2012-03-22 09:17:07,567 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-22 09:17:07,567 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:17:07,567 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:18:34,914 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:18:34,919 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:18:34,920  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:18:34,927  INFO main Cache:saveCache:146 - Saving cache to file ~/test_file
+M: 2012-03-22 09:18:34,930 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:18:34,930 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:18:34,931  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:18:34,932  INFO main Cache:saveCache:146 - Saving cache to file ~/test_file
+M: 2012-03-22 09:18:34,932  INFO main Cache:saveCache:146 - Saving cache to file ~/test_file
+M: 2012-03-22 09:18:34,932 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-22 09:18:34,933  INFO main Cache:saveCache:146 - Saving cache to file ~/test_file
+M: 2012-03-22 09:18:34,933 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-22 09:18:34,933  INFO main Cache:saveCache:146 - Saving cache to file ~/test_file
+M: 2012-03-22 09:18:34,934 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-22 09:18:34,934  INFO main Cache:saveCache:146 - Saving cache to file ~/test_file
+M: 2012-03-22 09:18:34,936 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:18:34,939 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:18:34,940  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:18:34,941  INFO main Cache:clearCache:108 - Clearing cache.
+M: 2012-03-22 09:18:34,941  INFO main Cache:saveCache:146 - Saving cache to file ~/test_file
+M: 2012-03-22 09:18:34,943 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:18:34,943 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:18:34,944  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:18:34,945  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:18:34,958 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:18:34,959 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:18:34,960  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:18:34,961  INFO main Cache:saveCache:146 - Saving cache to file ~/test_file
+M: 2012-03-22 09:18:34,963 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:18:34,963 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:18:34,964  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:18:35,149 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for cache
+M: 2012-03-22 09:18:35,149 DEBUG main AnswerSearcher:getAnswer:55 - Result is found in cache.
+M: 2012-03-22 09:18:35,150 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 50.0.
+M: 2012-03-22 09:18:35,151 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-22 09:18:35,152 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:18:35,152 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 25.0.
+M: 2012-03-22 09:18:35,163 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:18:35,172 DEBUG main Calculator:calculate:44 - Calculating 2+4
+M: 2012-03-22 09:18:35,173 DEBUG main Calculator:calculate:76 - Calculating of 2+4. Result is: 6.0
+M: 2012-03-22 09:18:35,193  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2012-03-22 09:18:35,193 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2012-03-22 09:18:35,194 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:18:35,194 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2012-03-22 09:18:35,195 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2012-03-22 09:18:35,195 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:18:35,196 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2012-03-22 09:18:35,196 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2012-03-22 09:18:35,197 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2012-03-22 09:18:35,197 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2012-03-22 09:18:35,203  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2012-03-22 09:18:35,207  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2012-03-22 09:18:35,207 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-22 09:18:35,207 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:18:35,207 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:18:35,210 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-22 09:18:35,212 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-22 09:18:35,213 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-22 09:18:35,214 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-22 09:18:35,215 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-22 09:18:35,216 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-22 09:18:35,219  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2012-03-22 09:18:35,219 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2012-03-22 09:18:35,219 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:18:35,219 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2012-03-22 09:18:35,220 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2012-03-22 09:18:35,220 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:18:35,221 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2012-03-22 09:18:35,221 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2012-03-22 09:18:35,221 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2012-03-22 09:18:35,222 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2012-03-22 09:18:35,222  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2012-03-22 09:18:35,224  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2012-03-22 09:18:35,224 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-22 09:18:35,224 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:18:35,224 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:19:45,858 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:19:45,862 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:19:45,863  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:19:45,876  INFO main Cache:saveCache:146 - Saving cache to file /~/test_file
+M: 2012-03-22 09:19:45,880 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:19:45,881 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:19:45,882  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:19:45,883  INFO main Cache:saveCache:146 - Saving cache to file /~/test_file
+M: 2012-03-22 09:19:45,883  INFO main Cache:saveCache:146 - Saving cache to file /~/test_file
+M: 2012-03-22 09:19:45,884 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-22 09:19:45,884  INFO main Cache:saveCache:146 - Saving cache to file /~/test_file
+M: 2012-03-22 09:19:45,885 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-22 09:19:45,885  INFO main Cache:saveCache:146 - Saving cache to file /~/test_file
+M: 2012-03-22 09:19:45,886 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-22 09:19:45,886  INFO main Cache:saveCache:146 - Saving cache to file /~/test_file
+M: 2012-03-22 09:19:45,888 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:19:45,895 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:19:45,895  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:19:45,897  INFO main Cache:clearCache:108 - Clearing cache.
+M: 2012-03-22 09:19:45,898  INFO main Cache:saveCache:146 - Saving cache to file /~/test_file
+M: 2012-03-22 09:19:45,899 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:19:45,899 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:19:45,900  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:19:45,900  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:19:45,905 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:19:45,905 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:19:45,906  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:19:45,906  INFO main Cache:saveCache:146 - Saving cache to file /~/test_file
+M: 2012-03-22 09:19:45,908 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:19:45,908 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:19:45,909  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:19:46,100 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for cache
+M: 2012-03-22 09:19:46,103 DEBUG main AnswerSearcher:getAnswer:55 - Result is found in cache.
+M: 2012-03-22 09:19:46,103 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 50.0.
+M: 2012-03-22 09:19:46,104 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-22 09:19:46,105 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:19:46,105 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 25.0.
+M: 2012-03-22 09:19:46,114 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:19:46,128 DEBUG main Calculator:calculate:44 - Calculating 2+4
+M: 2012-03-22 09:19:46,129 DEBUG main Calculator:calculate:76 - Calculating of 2+4. Result is: 6.0
+M: 2012-03-22 09:19:46,147  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2012-03-22 09:19:46,147 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2012-03-22 09:19:46,148 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:19:46,148 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2012-03-22 09:19:46,149 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2012-03-22 09:19:46,149 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:19:46,149 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2012-03-22 09:19:46,150 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2012-03-22 09:19:46,150 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2012-03-22 09:19:46,150 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2012-03-22 09:19:46,156  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2012-03-22 09:19:46,160  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2012-03-22 09:19:46,160 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-22 09:19:46,160 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:19:46,160 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:19:46,163 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-22 09:19:46,164 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-22 09:19:46,165 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-22 09:19:46,166 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-22 09:19:46,167 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-22 09:19:46,167 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-22 09:19:46,170  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2012-03-22 09:19:46,170 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2012-03-22 09:19:46,171 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:19:46,171 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2012-03-22 09:19:46,172 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2012-03-22 09:19:46,172 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:19:46,173 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2012-03-22 09:19:46,173 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2012-03-22 09:19:46,174 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2012-03-22 09:19:46,174 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2012-03-22 09:19:46,175  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2012-03-22 09:19:46,176  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2012-03-22 09:19:46,177 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-22 09:19:46,177 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:19:46,178 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:28:37,890 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:28:37,894 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:28:37,896  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:28:37,897  INFO main Cache:saveCache:146 - Saving cache to file /~/test_file
+M: 2012-03-22 09:28:37,899 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:28:37,899 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:28:37,900  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:28:37,901  INFO main Cache:saveCache:146 - Saving cache to file /~/test_file
+M: 2012-03-22 09:28:37,901  INFO main Cache:saveCache:146 - Saving cache to file /~/test_file
+M: 2012-03-22 09:28:37,901 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-22 09:28:37,902  INFO main Cache:saveCache:146 - Saving cache to file /~/test_file
+M: 2012-03-22 09:28:37,902 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-22 09:28:37,902  INFO main Cache:saveCache:146 - Saving cache to file /~/test_file
+M: 2012-03-22 09:28:37,903 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-22 09:28:37,903  INFO main Cache:saveCache:146 - Saving cache to file /~/test_file
+M: 2012-03-22 09:28:37,904 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:28:37,907 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:28:37,908  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:28:37,909  INFO main Cache:clearCache:108 - Clearing cache.
+M: 2012-03-22 09:28:37,910  INFO main Cache:saveCache:146 - Saving cache to file /~/test_file
+M: 2012-03-22 09:28:37,912 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:28:37,912 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:28:37,913  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:28:37,914  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:28:37,920 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:28:37,921 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:28:37,922  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:28:37,925  INFO main Cache:saveCache:146 - Saving cache to file /~/test_file
+M: 2012-03-22 09:28:37,927 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:28:37,927 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:28:37,927  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2012-03-22 09:28:38,147 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for cache
+M: 2012-03-22 09:28:38,148 DEBUG main AnswerSearcher:getAnswer:55 - Result is found in cache.
+M: 2012-03-22 09:28:38,148 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 50.0.
+M: 2012-03-22 09:28:38,157 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-22 09:28:38,157 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:28:38,157 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 25.0.
+M: 2012-03-22 09:28:38,170 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:28:38,191 DEBUG main Calculator:calculate:44 - Calculating 2+4
+M: 2012-03-22 09:28:38,192 DEBUG main Calculator:calculate:76 - Calculating of 2+4. Result is: 6.0
+M: 2012-03-22 09:28:38,211  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2012-03-22 09:28:38,211 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2012-03-22 09:28:38,211 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:28:38,212 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2012-03-22 09:28:38,223 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2012-03-22 09:28:38,224 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:28:38,224 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2012-03-22 09:28:38,225 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2012-03-22 09:28:38,225 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2012-03-22 09:28:38,226 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2012-03-22 09:28:38,232  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2012-03-22 09:28:38,235  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2012-03-22 09:28:38,235 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-22 09:28:38,235 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:28:38,235 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:28:38,236 ERROR main CalculationThread:getAndProcessStatement:239 - Statement error.
+M: 2012-03-22 09:28:38,247 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-22 09:28:38,248 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-22 09:28:38,249 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-22 09:28:38,250 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-22 09:28:38,251 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-22 09:28:38,252 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-22 09:28:38,256  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2012-03-22 09:28:38,257 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2012-03-22 09:28:38,257 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:28:38,257 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2012-03-22 09:28:38,258 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2012-03-22 09:28:38,258 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:28:38,258 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2012-03-22 09:28:38,259 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2012-03-22 09:28:38,259 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2012-03-22 09:28:38,259 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2012-03-22 09:28:38,260  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2012-03-22 09:28:38,261  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2012-03-22 09:28:38,262 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-22 09:28:38,262 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:28:38,262 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:28:38,262  INFO main CalculationThread:processStatement:150 - Statement error.
+M: 2012-03-22 09:49:19,986 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:49:19,991 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:49:19,992  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2012-03-22 09:49:19,994 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:49:19,994 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:49:19,995  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2012-03-22 09:49:19,995  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2012-03-22 09:49:19,995 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-22 09:49:19,996  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2012-03-22 09:49:19,996 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-22 09:49:19,996  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2012-03-22 09:49:19,997 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2012-03-22 09:49:19,997  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2012-03-22 09:49:19,998 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:49:19,999 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:49:20,000  INFO main Cache:clearCache:108 - Clearing cache.
+M: 2012-03-22 09:49:20,002  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2012-03-22 09:49:20,004 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:49:20,004 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:49:20,007 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:49:20,007 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:49:20,008  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2012-03-22 09:49:20,009 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2012-03-22 09:49:20,010 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2012-03-22 09:49:20,022 DEBUG main SaveLoadCache:loadFile:69 - Initializing input stream from cache file /home/eugene/test0.cache
+M: 2012-03-22 09:49:20,025 DEBUG main SaveLoadCache:loadFile:73 - Cache is loaded from file successfully.
+M: 2012-03-22 09:49:20,026 DEBUG main SaveLoadCache:loadFile:78 - Clothing input stream.
+M: 2012-03-22 09:49:20,026 DEBUG main SaveLoadCache:loadFile:80 - Input stream closed successfully.
+M: 2012-03-22 09:49:20,029 DEBUG main SaveLoadCache:writeFile:38 - Initializing output stream with file.
+M: 2012-03-22 09:49:20,030 DEBUG main SaveLoadCache:writeFile:42 - Cache saved to file /home/eugene/test0.cache. File size: 241b.
+M: 2012-03-22 09:49:20,030 DEBUG main SaveLoadCache:writeFile:49 - Clothing output stream.
+M: 2012-03-22 09:49:20,030 DEBUG main SaveLoadCache:writeFile:51 - Output stream clothed successfully.
+M: 2012-03-22 09:49:20,229 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for cache
+M: 2012-03-22 09:49:20,230 DEBUG main AnswerSearcher:getAnswer:55 - Result is found in cache.
+M: 2012-03-22 09:49:20,230 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 50.0.
+M: 2012-03-22 09:49:20,233 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-22 09:49:20,233 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:49:20,234 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 25.0.
+M: 2012-03-22 09:49:20,245 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:49:20,252 DEBUG main Calculator:calculate:44 - Calculating 2+4
+M: 2012-03-22 09:49:20,254 DEBUG main Calculator:calculate:76 - Calculating of 2+4. Result is: 6.0
+M: 2012-03-22 09:49:20,274  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2012-03-22 09:49:20,275 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2012-03-22 09:49:20,275 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:49:20,276 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2012-03-22 09:49:20,276 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2012-03-22 09:49:20,277 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:49:20,277 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2012-03-22 09:49:20,277 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2012-03-22 09:49:20,278 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2012-03-22 09:49:20,278 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2012-03-22 09:49:20,284  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2012-03-22 09:49:20,288  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2012-03-22 09:49:20,289 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-22 09:49:20,289 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:49:20,289 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:49:20,290 ERROR main CalculationThread:getAndProcessStatement:239 - Statement error.
+M: 2012-03-22 09:49:20,293 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-22 09:49:20,295 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-22 09:49:20,296 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-22 09:49:20,297 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-22 09:49:20,300 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2012-03-22 09:49:20,300 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2012-03-22 09:49:20,304  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2012-03-22 09:49:20,305 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2012-03-22 09:49:20,305 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:49:20,305 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2012-03-22 09:49:20,306 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2012-03-22 09:49:20,307 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:49:20,307 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2012-03-22 09:49:20,308 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2012-03-22 09:49:20,308 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2012-03-22 09:49:20,308 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2012-03-22 09:49:20,309  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2012-03-22 09:49:20,311  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2012-03-22 09:49:20,311 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2012-03-22 09:49:20,312 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2012-03-22 09:49:20,312 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2012-03-22 09:49:20,314  INFO main CalculationThread:processStatement:150 - Statement error.
+M: 2013-02-08 20:26:09,605 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2013-02-08 20:26:09,623 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2013-02-08 20:26:09,635  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2013-02-08 20:26:09,635  INFO main Cache:saveCache:146 - Saving cache to file \home\eugene\test_file
+M: 2013-02-08 20:26:09,635 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2013-02-08 20:26:09,636 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2013-02-08 20:26:09,636  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2013-02-08 20:26:09,636  INFO main Cache:saveCache:146 - Saving cache to file \home\eugene\test_file
+M: 2013-02-08 20:26:09,636  INFO main Cache:saveCache:146 - Saving cache to file \home\eugene\test_file
+M: 2013-02-08 20:26:09,636  INFO main Cache:saveCache:146 - Saving cache to file \home\eugene\test_file
+M: 2013-02-08 20:26:09,636 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2013-02-08 20:26:09,636  INFO main Cache:saveCache:146 - Saving cache to file \home\eugene\test_file
+M: 2013-02-08 20:26:09,637 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2013-02-08 20:26:09,637  INFO main Cache:saveCache:146 - Saving cache to file \home\eugene\test_file
+M: 2013-02-08 20:26:09,637 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2013-02-08 20:26:09,637 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2013-02-08 20:26:09,638  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2013-02-08 20:26:09,638  INFO main Cache:clearCache:108 - Clearing cache.
+M: 2013-02-08 20:26:09,639  INFO main Cache:saveCache:146 - Saving cache to file \home\eugene\test_file
+M: 2013-02-08 20:26:09,639 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2013-02-08 20:26:09,639 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2013-02-08 20:26:09,639  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2013-02-08 20:26:09,640  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2013-02-08 20:26:09,642 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2013-02-08 20:26:09,642 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2013-02-08 20:26:09,642  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2013-02-08 20:26:09,642  INFO main Cache:saveCache:146 - Saving cache to file \home\eugene\test_file
+M: 2013-02-08 20:26:09,643 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2013-02-08 20:26:09,643 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2013-02-08 20:26:09,643  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2013-02-08 20:26:09,764 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for cache
+M: 2013-02-08 20:26:09,764 DEBUG main AnswerSearcher:getAnswer:55 - Result is found in cache.
+M: 2013-02-08 20:26:09,764 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 50.0.
+M: 2013-02-08 20:26:09,765 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2013-02-08 20:26:09,765 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2013-02-08 20:26:09,765 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 25.0.
+M: 2013-02-08 20:26:09,770 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2013-02-08 20:26:09,775 DEBUG main Calculator:calculate:44 - Calculating 2+4
+M: 2013-02-08 20:26:09,776 DEBUG main Calculator:calculate:76 - Calculating of 2+4. Result is: 6.0
+M: 2013-02-08 20:26:09,812  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2013-02-08 20:26:09,822 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2013-02-08 20:26:09,822 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2013-02-08 20:26:09,823 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2013-02-08 20:26:09,823 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2013-02-08 20:26:09,823 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2013-02-08 20:26:09,823 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2013-02-08 20:26:09,824 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2013-02-08 20:26:09,824 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2013-02-08 20:26:09,824 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2013-02-08 20:26:09,827  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2013-02-08 20:26:09,837  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2013-02-08 20:26:09,837 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2013-02-08 20:26:09,837 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2013-02-08 20:26:09,838 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2013-02-08 20:26:09,838 ERROR main CalculationThread:getAndProcessStatement:239 - Statement error.
+M: 2013-02-08 20:26:09,849 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2013-02-08 20:26:09,850 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2013-02-08 20:26:09,850 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2013-02-08 20:26:09,850 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2013-02-08 20:26:09,851 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2013-02-08 20:26:09,851 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2013-02-08 20:26:09,852  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2013-02-08 20:26:09,852 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2013-02-08 20:26:09,852 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2013-02-08 20:26:09,852 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2013-02-08 20:26:09,853 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2013-02-08 20:26:09,853 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2013-02-08 20:26:09,853 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2013-02-08 20:26:09,853 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2013-02-08 20:26:09,854 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2013-02-08 20:26:09,854 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2013-02-08 20:26:09,854  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2013-02-08 20:26:09,854  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2013-02-08 20:26:09,854 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2013-02-08 20:26:09,854 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2013-02-08 20:26:09,855 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2013-02-08 20:26:09,855  INFO main CalculationThread:processStatement:150 - Statement error.
+M: 2013-04-19 21:27:15,159 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2013-04-19 21:27:15,162 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2013-04-19 21:27:15,163  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2013-04-19 21:27:15,163  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2013-04-19 21:27:15,165 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2013-04-19 21:27:15,165 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2013-04-19 21:27:15,165  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2013-04-19 21:27:15,165  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2013-04-19 21:27:15,165  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2013-04-19 21:27:15,166 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2013-04-19 21:27:15,166  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2013-04-19 21:27:15,166 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2013-04-19 21:27:15,166  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2013-04-19 21:27:15,166 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2013-04-19 21:27:15,167  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2013-04-19 21:27:15,167 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2013-04-19 21:27:15,169 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2013-04-19 21:27:15,170  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2013-04-19 21:27:15,170  INFO main Cache:clearCache:108 - Clearing cache.
+M: 2013-04-19 21:27:15,170  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2013-04-19 21:27:15,171 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2013-04-19 21:27:15,171 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2013-04-19 21:27:15,171  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2013-04-19 21:27:15,172  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2013-04-19 21:27:15,175 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2013-04-19 21:27:15,175 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2013-04-19 21:27:15,175  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2013-04-19 21:27:15,175  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2013-04-19 21:27:15,176 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2013-04-19 21:27:15,176 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2013-04-19 21:27:15,177  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2013-04-19 21:27:15,287 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for cache
+M: 2013-04-19 21:27:15,288 DEBUG main AnswerSearcher:getAnswer:55 - Result is found in cache.
+M: 2013-04-19 21:27:15,288 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 50.0.
+M: 2013-04-19 21:27:15,289 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2013-04-19 21:27:15,289 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2013-04-19 21:27:15,289 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 25.0.
+M: 2013-04-19 21:27:15,297 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2013-04-19 21:27:15,303 DEBUG main Calculator:calculate:44 - Calculating 2+4
+M: 2013-04-19 21:27:15,304 DEBUG main Calculator:calculate:76 - Calculating of 2+4. Result is: 6.0
+M: 2013-04-19 21:27:15,335  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2013-04-19 21:27:15,336 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2013-04-19 21:27:15,336 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2013-04-19 21:27:15,336 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2013-04-19 21:27:15,337 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2013-04-19 21:27:15,337 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2013-04-19 21:27:15,337 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2013-04-19 21:27:15,337 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2013-04-19 21:27:15,337 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2013-04-19 21:27:15,338 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2013-04-19 21:27:15,342  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2013-04-19 21:27:15,343  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2013-04-19 21:27:15,343 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2013-04-19 21:27:15,344 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2013-04-19 21:27:15,344 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2013-04-19 21:27:15,344 ERROR main CalculationThread:getAndProcessStatement:239 - Statement error.
+M: 2013-04-19 21:27:15,346 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2013-04-19 21:27:15,346 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2013-04-19 21:27:15,347 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2013-04-19 21:27:15,347 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2013-04-19 21:27:15,347 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2013-04-19 21:27:15,348 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2013-04-19 21:27:15,349  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2013-04-19 21:27:15,349 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2013-04-19 21:27:15,349 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2013-04-19 21:27:15,350 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2013-04-19 21:27:15,350 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2013-04-19 21:27:15,350 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2013-04-19 21:27:15,351 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2013-04-19 21:27:15,351 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2013-04-19 21:27:15,351 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2013-04-19 21:27:15,351 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2013-04-19 21:27:15,352  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2013-04-19 21:27:15,352  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2013-04-19 21:27:15,352 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2013-04-19 21:27:15,353 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2013-04-19 21:27:15,353 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2013-04-19 21:27:15,353  INFO main CalculationThread:processStatement:150 - Statement error.
+M: 2013-04-19 21:53:51,249 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2013-04-19 21:53:51,252 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2013-04-19 21:53:51,253  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2013-04-19 21:53:51,253  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2013-04-19 21:53:51,254 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2013-04-19 21:53:51,254 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2013-04-19 21:53:51,255  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2013-04-19 21:53:51,255  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2013-04-19 21:53:51,255  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2013-04-19 21:53:51,255 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2013-04-19 21:53:51,255  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2013-04-19 21:53:51,256 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2013-04-19 21:53:51,256  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2013-04-19 21:53:51,256 DEBUG main Cache:deleteOldAccessedObjects:128 - Cache is full. Deleting old accessed objects.
+M: 2013-04-19 21:53:51,256  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2013-04-19 21:53:51,257 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2013-04-19 21:53:51,259 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2013-04-19 21:53:51,259  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2013-04-19 21:53:51,260  INFO main Cache:clearCache:108 - Clearing cache.
+M: 2013-04-19 21:53:51,260  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2013-04-19 21:53:51,261 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2013-04-19 21:53:51,261 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2013-04-19 21:53:51,261  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2013-04-19 21:53:51,261  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2013-04-19 21:53:51,265 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2013-04-19 21:53:51,265 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2013-04-19 21:53:51,265  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2013-04-19 21:53:51,266  INFO main Cache:saveCache:146 - Saving cache to file /home/eugene/test_file
+M: 2013-04-19 21:53:51,267 DEBUG main Parameters:<init>:98 - Initializing parameters.
+M: 2013-04-19 21:53:51,267 DEBUG main Cache:<init>:71 - Initializing cache.
+M: 2013-04-19 21:53:51,267  WARN main Cache:loadCache:160 - Cache file not found.
+M: 2013-04-19 21:53:51,379 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for cache
+M: 2013-04-19 21:53:51,380 DEBUG main AnswerSearcher:getAnswer:55 - Result is found in cache.
+M: 2013-04-19 21:53:51,380 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 50.0.
+M: 2013-04-19 21:53:51,381 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2013-04-19 21:53:51,381 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2013-04-19 21:53:51,381 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 25.0.
+M: 2013-04-19 21:53:51,389 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2013-04-19 21:53:51,395 DEBUG main Calculator:calculate:44 - Calculating 2+4
+M: 2013-04-19 21:53:51,395 DEBUG main Calculator:calculate:76 - Calculating of 2+4. Result is: 6.0
+M: 2013-04-19 21:53:51,406  INFO main CalculationThread:getAndProcessStatement:212 - Statement is 2+2
+M: 2013-04-19 21:53:51,407 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2013-04-19 21:53:51,407 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2013-04-19 21:53:51,407 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2013-04-19 21:53:51,408 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2013-04-19 21:53:51,408 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2013-04-19 21:53:51,408 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2013-04-19 21:53:51,408 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2013-04-19 21:53:51,409 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2013-04-19 21:53:51,409 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2013-04-19 21:53:51,414  INFO main CalculationThread:getAndProcessStatement:229 - Result is 4
+M: 2013-04-19 21:53:51,415  INFO main CalculationThread:getAndProcessStatement:212 - Statement is foo
+M: 2013-04-19 21:53:51,415 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2013-04-19 21:53:51,415 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2013-04-19 21:53:51,415 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2013-04-19 21:53:51,416 ERROR main CalculationThread:getAndProcessStatement:239 - Statement error.
+M: 2013-04-19 21:53:51,417 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2013-04-19 21:53:51,418 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2013-04-19 21:53:51,418 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2013-04-19 21:53:51,419 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2013-04-19 21:53:51,419 DEBUG main ConvertOperations:convert:45 - Minus and plus consecutive detected. Converting them to minus operator.
+M: 2013-04-19 21:53:51,419 DEBUG main ConvertOperations:convert:37 - Double plus or double minus operator detected. Converting them to plus operator.
+M: 2013-04-19 21:53:51,421  INFO main CalculationThread:processStatement:135 - Statement is 2+2
+M: 2013-04-19 21:53:51,421 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for 2+2
+M: 2013-04-19 21:53:51,421 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2013-04-19 21:53:51,422 DEBUG main Calculator:calculate:44 - Calculating 2+2
+M: 2013-04-19 21:53:51,422 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for +2
+M: 2013-04-19 21:53:51,422 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2013-04-19 21:53:51,422 DEBUG main Calculator:calculate:44 - Calculating +2
+M: 2013-04-19 21:53:51,423 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 2.0.
+M: 2013-04-19 21:53:51,423 DEBUG main Calculator:calculate:76 - Calculating of 2+2. Result is: 4.0
+M: 2013-04-19 21:53:51,423 DEBUG main AnswerSearcher:getAnswer:59 - Returning result: 4.0.
+M: 2013-04-19 21:53:51,423  INFO main CalculationThread:processStatement:144 - Result is 4
+M: 2013-04-19 21:53:51,424  INFO main CalculationThread:processStatement:135 - Statement is foo
+M: 2013-04-19 21:53:51,424 DEBUG main AnswerSearcher:getAnswer:42 - Searching answer for foo
+M: 2013-04-19 21:53:51,424 DEBUG main AnswerSearcher:getAnswer:49 - Result is not found in cache. Sent to calculator.
+M: 2013-04-19 21:53:51,425 DEBUG main Calculator:calculate:44 - Calculating foo
+M: 2013-04-19 21:53:51,425  INFO main CalculationThread:processStatement:150 - Statement error.

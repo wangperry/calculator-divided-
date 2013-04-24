@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)" preserve-order="false">
+    <classes>
+      <class name="com.sysgears.calculatorserver.kernell.cache.UTestSaveLoadCache">
+        <methods>
+          <include name="testWriteFile"/>
+          <include name="testLoadFile"/>
+          <include name="createTestFile"/>
+        </methods>
+      </class>
+      <class name="com.sysgears.calculatorserver.kernell.cache.UTestCache">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testLoadCache"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
